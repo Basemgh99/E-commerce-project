@@ -1,0 +1,52 @@
+:root{
+    --mainfont:"Lato", sans-serif;
+    --main-color:#2A254B;
+}
+
+body{
+    font-family: var(--mainfont); 
+}
+nav .header h2{
+    color:#22202E;
+    text-align: center ;
+}
+.border-header{
+    width: 95%;
+    color: #000000;
+}
+.navbar-nav .nav-link.active{
+    color: #726E8D;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        position: relative;
+    }
+     .navbar .header h2{
+        margin-right: auto;  
+    }
+    .navbar button{
+        position: absolute;
+        right: 40px;
+    }
+    .navbar header img{
+        position: absolute;
+        right: 93px;
+        width: 20px;
+        height: 20px;
+        top: 24px;
+    }
+    .navbar-toggler{
+       border: none;
+       width: 20px;
+        height: 20px;
+       
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+   
+  
+
+  
+    
+}
