@@ -44,9 +44,125 @@ nav .header h2{
     .navbar-toggler:focus{
         box-shadow: none;
     }
-   
-  
+      
+}
 
-  
+/* hero start */
+.hero{
+    padding: 60px 0px;
+    position: relative;
+}
+.hero .left-side{
+   background-color: var(--main-color);
+   color: #F9F9F9;
+   padding: 158px 40px;
+   width: 100%;
+}
+ .hero .left-side h2{
+    margin-top: -90px;
+}
+
+.hero .left-side .hero-btn{
+    margin-top: 20px;
+}
+.hero .left-side p{
+    margin-top: 90px;
+   
+} 
+
+
+.hero-btn{
+    border: 1px solid  var(--main-color) !important;
+    background-color: #4E4D93;
+    padding: 16px 32px;
+    /* width: 170px; */
     
 }
+.hero-btn:hover{
+    background-color: #4E4D93;
+}
+
+.hero .left-side img{
+   height: 566px;
+    right: 0px;
+    top: 0px;
+}
+
+@media screen and (max-width:1200px) {
+  .hero .left-side img{
+  position: absolute;
+  
+  height: 510.5px;
+  right: 0;
+  top: 0;
+}
+.hero .left-side h2{
+    font-size: 18px;
+}
+.hero .left-side p{
+    font-size: 11px;
+}
+}
+
+@media screen and (max-width:992px) {
+  .hero .left-side img{
+  position: absolute;
+  height: 492px;
+  width: 350px;
+  right: 0;
+  top: 0px;
+}
+ .hero .left-side h2{
+    object-fit: contain;
+    font-size: 14px;
+
+}
+.hero .left-side p{
+    margin-top: 90px;
+    font-size: 9px;
+    object-fit: contain;
+    margin-left: -10px;    
+} 
+}
+
+@media screen and (max-width:769px) {
+  .hero{
+    padding: 0;
+    width: 100%;
+  }
+    .hero .left-side{
+        position: relative;
+    }
+    .hero .left-side img{
+  display: none;
+} 
+.hero .left-side h2{
+font-size: 44px;
+}  
+
+.hero .left-side p{
+font-size: 18px;
+}  
+
+.hero .btn{
+   position: absolute;
+   bottom: 24px;
+   text-align: center;
+   width: 342px;
+   right: 75px;
+}
+}
+
+@media screen and (max-width:460px) {
+ 
+
+.hero .btn{
+   position: absolute;
+   bottom: 24px;
+   text-align: center;
+   width: 250px;
+   right: 50px;
+}
+}
+
+/* hero end */
