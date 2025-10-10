@@ -207,3 +207,35 @@ background-color: #F9F9F9;
     
 }
 /* caramics end */
+
+/* popular start */
+.popular-products{
+    padding: 60px 0;
+}
+
+.popular-products .card{
+    border: none;
+    outline: none;
+   
+   
+}
+ .popular-products .img-one {
+  /* width: 630px; */
+  
+   
+}
+
+
+
+ .popular-products .img-two-details {
+   /* width: 305px;
+   height: 375px;
+   margin-left: 200px; */
+   
+} 
+.popular-products .img-three-details{
+   /* width: 305px;
+   height: 375px;
+   margin-left: 75px; */
+}
+/* popular end */
