@@ -177,3 +177,33 @@ font-size: 18px;
     padding: 60px 0px;
 }
 /* brands end */
+
+/* caramics start */
+
+.caramics{
+    padding: 60px 0;
+}
+.card{
+    border: none;
+    outline: none;
+}
+
+.caramics-btn{
+    width: 170px;
+  height: 56px;
+background-color: #F9F9F9;
+   transition: all 0.6s;
+  
+}
+.caramics-btn:hover{
+    background-color: #F9F9F9;
+    border: #F9F9F9;
+}
+@media screen and (max-width:577px) {
+  .caramics-btn{
+    width: 342px;
+    height: 56px;
+  }
+    
+}
+/* caramics end */
