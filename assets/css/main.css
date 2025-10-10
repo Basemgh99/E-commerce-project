@@ -2,6 +2,9 @@
     --mainfont:"Lato", sans-serif;
     --main-color:#2A254B;
 }
+.color-main{
+    color: var(--main-color);
+}
 
 body{
     font-family: var(--mainfont); 
@@ -50,7 +53,7 @@ nav .header h2{
 /* hero start */
 .hero{
     padding: 60px 0px;
-    position: relative;
+   
 }
 .hero .left-side{
    background-color: var(--main-color);
@@ -160,9 +163,17 @@ font-size: 18px;
    position: absolute;
    bottom: 24px;
    text-align: center;
-   width: 250px;
+   width: 220px;
    right: 50px;
 }
 }
 
 /* hero end */
+
+
+/* brands start */
+
+.brands{
+    padding: 60px 0px;
+}
+/* brands end */
