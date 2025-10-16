@@ -2,6 +2,16 @@
     --mainfont: "Lato", sans-serif;
     --main-color: #2a254b;
     --sub-color: #F9F9F9;
+    --sub-color-two:#4E4D93;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
 }
 
 .color-main {
@@ -12,6 +22,9 @@
     background-color: var(--main-color);
 }
 
+.sub-color-footer{
+    color:#4E4D93
+}
 body {
     font-family: var(--mainfont);
     background-color: #F9F9F9;
@@ -28,7 +41,7 @@ nav .header h2 {
 }
 
 .border-header {
-    width: 95%;
+    
     color: #000000;
 }
 
@@ -279,6 +292,7 @@ nav .header h2 {
     border: none;
     outline: none;
     padding: 16px 32px;
+    
 }
 
 .club .btn:hover {
@@ -286,7 +300,7 @@ nav .header h2 {
 
 }
 
-@media screen and (max-width:768px) {
+ /* @media screen and (max-width:768px) {
 
     .club-search input {
 
@@ -396,10 +410,18 @@ nav .header h2 {
 
 @media screen and (max-width:425px) {
 
-    .club-search form {
+   .club-search  input, .club-search button {
 
-       
-          padding:4px 7px;
+padding: 3px 3px 3px 1px;
+
+    }
+}
+@media screen and (max-width:422px) {
+
+    .club-search button {
+
+padding: 2px 2px 2px 1px;
+
     }
 }
 
@@ -408,7 +430,7 @@ nav .header h2 {
 
     .club-search input {
 
-        padding: 2px;
+        padding: 2px 2px 2px 1px;
     }
 }
 
@@ -416,9 +438,9 @@ nav .header h2 {
 
     .club-search input {
 
-        padding: 1px;
+        padding: 1px ;
     }
-}
+}  */
 
 /* club end */
 
@@ -461,3 +483,62 @@ nav .header h2 {
 }
 
 /* global brand end */
+
+
+
+
+/* start footer */
+.footer{
+    margin:-60px 0;
+}
+.footer .footer-item h2{
+    font-size: 22px;
+}
+
+.footer .footer-item a{
+   color: #fff;
+   font-size: 14px;
+}
+
+ .footer .row{
+    padding: 20px 10px;
+} 
+
+
+.footer .footer-right-side form {
+    border: 1px solid #2a254b;
+   
+  
+}
+
+.footer .footer-right-side input {
+    background-color: #4E4D93;
+    border: none;
+    outline: none;
+    padding: 17px 100px 17px 32px;
+    height: 56px;  
+}
+
+.footer .footer-right-side button {
+    border: none;
+    outline: none;
+         
+}
+.footer .footer-right-side button:hover {
+    color: var(--main-color);
+         
+}
+ .footer .footer-header {
+    border-color: #4E4D93 !important ;
+}
+
+@media screen and (max-width:768px) {
+    .footer .footer-icons{
+        display: none !important;
+    }
+     .footer .footer-details p{
+        text-align: center ;
+    }
+}
+
+/* end footer */
