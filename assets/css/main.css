@@ -590,4 +590,12 @@ height: 56px;
 background-color: var(--main-color);
 }
 
+
+footer .footer-icons .footer-svg{
+    margin-right: 200px;
+  width: 200px;
+  height: 40px;
+    visibility: visible !important;
+}
+
 /* page 2 */
