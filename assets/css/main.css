@@ -670,5 +670,11 @@ border: 1px solid #f9f9f9 !important;
     background-color: #F9F9F9;
 }
 
+.hero-shopping .total-table h4,p{
+    color: #4E4D93;
+}
+.hero-shopping .btn:hover{
+    background-color: var(--main-color);
+}
 
 /* page 4 */
